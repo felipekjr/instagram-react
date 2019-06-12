@@ -1,0 +1,35 @@
+section#post-list {
+    width: 100%;
+    max-width: 588px;
+    margin: 0 auto;
+    padding: 8 30px;
+}
+
+section#post-list article {
+    background: #FFF;
+    border: 1px solid #DDD;
+    margin-top: 30px;
+}
+
+section#post-list article header{
+   padding: 20px;
+
+   display: flex;
+   align-items: center;
+   justify-content: space-between;   
+}
+
+section#post-list article header .user-info{
+    display: flex;
+    flex-direction: column;
+ }
+
+ section#post-list article header .user-info span{
+    font-size: 13px;
+ }
+
+ section#post-list article header .user-info span.place{
+    font-size: 11px;
+    color: #666;
+    margin-top: 3px;
+ }

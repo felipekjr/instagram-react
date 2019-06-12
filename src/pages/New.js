@@ -3,9 +3,9 @@ import React, { Component } from 'react';
 
 class New extends Component {
     render () {
-        return {
+        return (
             <h1>New</h1>        
-        };
+        );
     }
 }
 
