@@ -47,6 +47,13 @@ section#post-list article header .user-info{
    margin-bottom: 10px;
 }
 
+section#post-list article footer .actions  button{
+   background: transparent;
+   border: 0;
+   cursor: pointer;
+}
+
+
 
  section#post-list article footer .actions img {
     height: 20px;
